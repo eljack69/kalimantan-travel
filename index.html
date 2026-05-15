@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Visita Kalimantan — Selva Travel</title>
+  <meta name="description" content="Selva Travel diseña expediciones boutique por Kalimantan (Borneo): islas Derawan, lago Sentarum, Kakaban y los rincones más remotos del archipiélago." />
+
+  <meta property="og:title" content="Visita Kalimantan — Selva Travel" />
+  <meta property="og:description" content="Expediciones boutique por Borneo: Derawan, Sentarum, Kakaban y Kelam." />
+  <meta property="og:image" content="https://eljack69.github.io/kalimantan-travel/assets/img/og.jpg" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="canonical" href="https://eljack69.github.io/kalimantan-travel/" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+  <header class="nav" id="nav">
+    <a class="nav__brand" href="#inicio">
+      <span class="nav__dot" aria-hidden="true"></span>
+      <span class="nav__name">SELVA</span>
+    </a>
+    <button class="nav__toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav__menu" id="menu" aria-label="Menú principal">
+      <a href="#mar" class="nav__link">Mar abierto</a>
+      <a href="#bosque" class="nav__link is-active">Bosque</a>
+      <a href="#islas" class="nav__link">Islas</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <div class="hero__media" aria-hidden="true">
+        <img src="https://images.unsplash.com/photo-1502786129293-79981df4e689?auto=format&fit=crop&w=2400&q=80" alt="" fetchpriority="high" />
+        <div class="hero__overlay"></div>
+      </div>
+
+      <div class="container hero__inner">
+        <div class="hero__copy">
+          <h1 class="hero__title">VISITA<br/>KALIMANTAN</h1>
+
+          <div class="hero__cols">
+            <article>
+              <p>El monte <strong>Bukit Raya</strong> se alza en la regencia de Katingan, en el centro de Kalimantan: la cumbre más alta del Borneo indonesio, dentro de un parque protegido de selva primaria.</p>
+            </article>
+            <article>
+              <p>La isla de <strong>Maratua</strong> es uno de los puntos más remotos de Indonesia, en la regencia de Berau (Kalimantan Oriental). Sus arrecifes alojan la mayor área de anidación de tortugas verdes del país.</p>
+            </article>
+            <article>
+              <p><strong>Kumala</strong> es un delta fluvial sobre el río Mahakam, al oeste de la ciudad de Tenggarong. Desde el año 2000 se desarrolla como área turística boutique en Kutai Kartanegara.</p>
+            </article>
+          </div>
+
+          <button class="hero__swipe" type="button" aria-label="Ver siguiente">
+            <span>Deslizar</span>
+            <span class="hero__swipe-arrow" aria-hidden="true">&raquo;</span>
+          </button>
+        </div>
+
+        <ol class="hero__pager" role="list" aria-label="Día del itinerario">
+          <li><button data-day="18">18</button></li>
+          <li><button data-day="19">19</button></li>
+          <li><button class="is-active" data-day="20" aria-current="true">20</button></li>
+          <li><button data-day="21">21</button></li>
+          <li><button data-day="22">22</button></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- PLACES -->
+    <section class="places" id="islas" aria-label="Lugares destacados">
+      <div class="container">
+        <div class="places__rule" aria-hidden="true">
+          <span class="places__rule-red"></span>
+        </div>
+
+        <h2 class="places__title">
+          <span>Encuentra tu lugar favorito</span>
+          <span class="places__subtitle">en nuestra isla, Kalimantan</span>
+        </h2>
+
+        <div class="places__grid">
+          <article class="place">
+            <div class="place__media">
+              <img src="https://images.unsplash.com/photo-1559628233-eb1bbc6e6cee?auto=format&fit=crop&w=700&q=80" alt="Bungalows sobre el agua en Derawan" loading="lazy" />
+              <div class="place__overlay">
+                <p class="place__rank"><span>1<sup>er</sup></span> lugar</p>
+                <p class="place__name">Isla Derawan</p>
+              </div>
+            </div>
+          </article>
+          <article class="place">
+            <div class="place__media">
+              <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=700&q=80" alt="Lago Sentarum con manglares" loading="lazy" />
+              <div class="place__overlay">
+                <p class="place__rank"><span>2<sup>do</sup></span> lugar</p>
+                <p class="place__name">Lago Sentarum</p>
+              </div>
+            </div>
+          </article>
+          <article class="place">
+            <div class="place__media">
+              <img src="https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=700&q=80" alt="Laguna interior de Kakaban" loading="lazy" />
+              <div class="place__overlay">
+                <p class="place__rank"><span>3<sup>er</sup></span> lugar</p>
+                <p class="place__name">Isla Kakaban</p>
+              </div>
+            </div>
+          </article>
+          <article class="place">
+            <div class="place__media">
+              <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=700&q=80" alt="Vista del Cerro Kelam al amanecer" loading="lazy" />
+              <div class="place__overlay">
+                <p class="place__rank"><span>4<sup>to</sup></span> lugar</p>
+                <p class="place__name">Cerro Kelam</p>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="places__rule places__rule--bottom" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <!-- HOLIDAY -->
+    <section class="holiday" id="bosque" aria-label="Viaja y disfruta">
+      <div class="holiday__bg" aria-hidden="true">
+        <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=2400&q=80" alt="" loading="lazy" />
+        <div class="holiday__overlay"></div>
+      </div>
+
+      <div class="container holiday__inner">
+        <div class="holiday__copy">
+          <h2 class="holiday__title">VIAJA Y<br/>DISFRUTA TUS<br/>VACACIONES</h2>
+          <p class="holiday__sub">
+            <span class="holiday__play" aria-hidden="true">&#9658;</span>
+            elige tu plan favorito
+          </p>
+          <p class="holiday__lead">
+            La isla de Maratua, los manglares de Berau y el delta del Mahakam: tres rutas curadas para sumergirte en lo más auténtico de Kalimantan, con guía local y logística boutique de principio a fin.
+          </p>
+        </div>
+
+        <ul class="holiday__videos" role="list">
+          <li>
+            <button class="video-thumb" type="button" aria-label="Reproducir video: aguas cristalinas">
+              <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=700&q=80" alt="" loading="lazy" />
+              <span class="video-thumb__play" aria-hidden="true">&#9658;</span>
+            </button>
+          </li>
+          <li>
+            <button class="video-thumb" type="button" aria-label="Reproducir video: atardecer en el mar">
+              <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=700&q=80" alt="" loading="lazy" />
+              <span class="video-thumb__play" aria-hidden="true">&#9658;</span>
+            </button>
+          </li>
+          <li>
+            <button class="video-thumb" type="button" aria-label="Reproducir video: muelle en la jungla">
+              <img src="https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=700&q=80" alt="" loading="lazy" />
+              <span class="video-thumb__play" aria-hidden="true">&#9658;</span>
+            </button>
+          </li>
+          <li>
+            <button class="video-thumb" type="button" aria-label="Reproducir video: playa con palmeras">
+              <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=700&q=80" alt="" loading="lazy" />
+              <span class="video-thumb__play" aria-hidden="true">&#9658;</span>
+            </button>
+          </li>
+        </ul>
+      </div>
+
+      <footer class="holiday__footer">
+        <a class="holiday__handle" href="#" aria-label="Instagram">
+          <span class="holiday__ig" aria-hidden="true">◧</span>
+          rzkykrnawnn
+        </a>
+        <small class="holiday__copy-mini">© <span id="year"></span> Selva Travel — demo estática.</small>
+      </footer>
+    </section>
+  </main>
+
+  <!-- Modal de video (vacío, se rellena por JS) -->
+  <div class="modal" id="videoModal" hidden>
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__panel" role="dialog" aria-modal="true" aria-label="Vista previa de destino">
+      <button class="modal__close" type="button" aria-label="Cerrar" data-close>×</button>
+      <img id="modalImg" src="" alt="" />
+    </div>
+  </div>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
