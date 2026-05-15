@@ -1,13 +1,15 @@
-# Selva Travel — landing demo Kalimantan
+# Manu Selva — landing demo Amazonía peruana
 
 Página de aterrizaje **estática** inspirada en un mockup de agencia de viajes
-con tema verde bosque y acento rojo. Foco en Kalimantan (Borneo indonesio).
+con tema verde bosque y acento rojo. Foco en la Amazonía peruana (Manu,
+Tambopata, Pacaya-Samiria, Madre de Dios).
 
 Stack: HTML5 + CSS moderno (custom properties + grid) + JS vanilla. Sin build step.
 
 ## Demo
 
 - URL pública: https://eljack69.github.io/kalimantan-travel/
+  (el slug se conserva por compatibilidad; la marca pública es **Manu Selva**.)
 
 ## Estructura
 
@@ -26,12 +28,12 @@ kalimantan-travel/
 
 ## Aviso
 
-- Marca ("Selva Travel"), handle de instagram, lead y números de día son **ficticios** /
+- Marca ("Manu Selva"), handle de instagram, lead y números de día son **ficticios** /
   placeholder.
 - Las imágenes vienen de Unsplash CDN; reemplazar por fotografía propia con licencia
   antes de producción.
-- Los thumbnails de la sección "Viaja y disfruta" abren un modal con la imagen,
-  no son videos reales — sustituir por iframes de YouTube/Vimeo cuando aplique.
+- Los thumbnails de la sección "Viaja en bote por la selva viva" abren un modal con la
+  imagen, no son videos reales — sustituir por iframes de YouTube/Vimeo cuando aplique.
 
 ## Reutilizar
 
